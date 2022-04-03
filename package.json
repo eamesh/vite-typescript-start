@@ -5,13 +5,22 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint:eslint": "eslint \"src/**/*.{vue,js,ts,tsx}\" --fix"
   },
   "dependencies": {
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
     "@vitejs/plugin-vue": "^2.3.0",
+    "eslint": "^8.12.0",
+    "eslint-config-standard": "^17.0.0-1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-n": "14",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^8.5.0",
     "typescript": "^4.5.4",
     "vite": "^2.9.0",
     "vue-tsc": "^0.29.8"
