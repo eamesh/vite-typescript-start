@@ -56,7 +56,7 @@ a {
 }
 
 label {
-  margin: 0 0.5em;
+  margin: 0 .5em;
   font-weight: bold;
 }
 
